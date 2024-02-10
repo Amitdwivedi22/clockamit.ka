@@ -1,0 +1,50 @@
+body{
+    /* background-color: rgb(110, 126, 171); */
+    background-image: url(images/cam-morin-gTb46ltlKOI-unsplash.jpg);
+    background-size: cover;
+}
+
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    background-image: url(images/anaclock1\(1\).png);
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    
+
+}
+#hour,#minutes,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hour{
+    height: 29%;
+    width: 1%;
+    top: 21%;
+    left: 49.6%;
+    opacity: 0.8;
+    
+
+}
+#minutes{
+    height: 31%;
+    width: 0.8%;
+    top: 19%;
+    left: 49.6%;
+    opacity: 0.8;
+
+
+
+}
+#second{
+    height: 34%;
+    width: 0.5%;
+    top: 16%;
+    left: 49.7%;
+
+
+}
